@@ -1,0 +1,26 @@
+# R specific files
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# Compiled files
+src/*.o
+src/*.so
+src/*.dll
+
+# Build and check files
+*.tar.gz
+*.Rcheck/
+
+# System specific files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Documentation
+inst/doc 

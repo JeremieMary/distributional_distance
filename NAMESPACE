@@ -1,0 +1,4 @@
+useDynLib(distributionalDist, .registration = TRUE)
+importFrom(Rcpp, evalCpp)
+export(distributionalDistContinuous)
+export(distributionalDistDiscrete)

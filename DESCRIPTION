@@ -1,0 +1,11 @@
+Package: distributionalDist
+Type: Package
+Title: Distributional Distance Implementation
+Version: 1.0
+Author: Jeremie Mary
+Maintainer: Jeremie Mary <jeremie.mary@gmail.com>
+Description: Provides distributional distance functions for discrete and continuous data.
+License: GPL(>=2)
+Imports: Rcpp 
+LinkingTo: Rcpp
+RoxygenNote: 7.3.2
