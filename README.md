@@ -50,7 +50,7 @@ For continuous sequences:
 
 ## License
 
-GPL (>= 2)
+MIT
 
 ## Author
 

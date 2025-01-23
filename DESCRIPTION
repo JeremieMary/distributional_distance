@@ -1,11 +1,17 @@
 Package: distributionalDist
-Type: Package
-Title: Distributional Distance Implementation
-Version: 1.0
-Author: Jeremie Mary
-Maintainer: Jeremie Mary <jeremie.mary@gmail.com>
-Description: Provides distributional distance functions for discrete and continuous data.
-License: GPL(>=2)
-Imports: Rcpp 
-LinkingTo: Rcpp
-RoxygenNote: 7.3.2
+Title: Distributional Distance Calculations for Sequences
+Version: 0.1.0
+Authors@R: 
+    person("Jeremie", "Mary", , "jeremie.mary@gmail.com", role = c("aut", "cre"))
+Description: Implements distributional distance calculations for discrete and 
+    continuous variables. The package provides efficient computation of 
+    distributional distances between sequences using weighted approaches, 
+    supporting both discrete and continuous data types.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    Rcpp (>= 1.0.7)
+LinkingTo: 
+    Rcpp
